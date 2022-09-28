@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .scroll::-webkit-scrollbar-thumb{
+  width:none;
+} */
+.scroll::-webkit-scrollbar{
+  transition: ease;
+  width: 0%;
+  height: 0%;
+}
+.divider{
+  border: 2px solid black;
+  margin: 32px;
+}
+.last{
+  border: 1px solid red;
+  color: red;
+}
