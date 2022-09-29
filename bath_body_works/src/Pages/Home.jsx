@@ -6,7 +6,7 @@ import TopOffers from "../Components/TopOffers"
 import '../App.css'
 function Home(){
     return(
-        <Stack border='1px solid' gap='10'>
+        <Stack  gap='10'>
             <Flex  justifyContent='center' >
                 <Image src='https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/-/Sites-BathAndBodyWorks-Library/default/dwe88105b6/images/Fall2022/diff_decor_fa3_hm.gif?yocs=s_' w='1200px' h='636'/>
             </Flex>

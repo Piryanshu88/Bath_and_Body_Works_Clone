@@ -1,4 +1,4 @@
-import { Grid, GridItem } from "@chakra-ui/react";
+import { SimpleGrid, GridItem } from "@chakra-ui/react";
 import {InfoOutlineIcon,EmailIcon} from '@chakra-ui/icons'
 import {
   FormControl,
@@ -14,7 +14,7 @@ import {
 
 function Footer() {
   return (
-    <Grid templateColumns='repeat(5,0.7fr)' fontSize='14px' fontfamily='Trade Gothic W01 Light,Arial,sans-serif' color='#666' gap="2" p='5'>
+    <SimpleGrid templateColumns='repeat(5,0.7fr)' fontSize='14px' fontfamily='Trade Gothic W01 Light,Arial,sans-serif' color='#666' gap="2" p='5' > 
       <GridItem lineHeight='2rem' p='2' paddingLeft='6'>
         <Text>Get email offers & the latest news from Bath & Body Works!</Text>
         <FormControl>
@@ -71,7 +71,7 @@ function Footer() {
         <Text >Store Locator</Text>
         <Text  >Global Locations</Text>
       </GridItem>
-    </Grid>
+    </SimpleGrid>
   );
 }
 

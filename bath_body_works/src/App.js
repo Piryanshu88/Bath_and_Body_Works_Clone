@@ -9,9 +9,9 @@ function App() {
     <div className="App">
           <Navbar/>
           <AllRoutes/>
-          {/* <Flex justifyContent='center' borderTop='3px solid #F2F2F2'>
+          <Flex justifyContent='center' borderTop='3px solid #F2F2F2' m='4'>
                 <Footer/>
-            </Flex> */}
+            </Flex>
     </div>
   );
 }

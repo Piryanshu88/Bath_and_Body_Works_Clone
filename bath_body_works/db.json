@@ -1,0 +1,759 @@
+{
+  "products": [
+      {
+        "id": 495,
+        "brand": "maybelline",
+        "name": "Maybelline Face Studio Master Hi-Light Light Booster Bronzer",
+        "price": "14.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/991799d3e70b8856686979f8ff6dcfe0_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-face-studio-master_88837.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Face Studio Master Hi-Light Light Boosting bronzer formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
+        "rating": 5,
+        "category": null,
+        "product_type": "bronzer",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:36:15.012Z",
+        "updated_at": "2017-12-23T21:08:50.624Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/495.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/495/original/open-uri20171223-4-9hrto4?1514063330",
+        "product_colors": []
+      },
+      {
+        "id": 488,
+        "brand": "maybelline",
+        "name": "Maybelline Fit Me Bronzer",
+        "price": "10.29",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/d4f7d82b4858c622bb3c1cef07b9d850_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-fit-me-bronzer_31265.html",
+        "website_link": "https://well.ca",
+        "description": "Why You'll Love It\n\nLightweight pigments blend easily and wear evenly\nProvides a natural, fade-proof bronzed color that leaves skin the way it was meant to be...fresh, breathing and natural\n\nFor Best Results: For soft, natural look, brush along cheekbone, sweeping upward.",
+        "rating": 4.5,
+        "category": null,
+        "product_type": "bronzer",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:36:05.584Z",
+        "updated_at": "2017-12-23T21:08:49.985Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/488.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/488/original/open-uri20171223-4-deo82c?1514063329",
+        "product_colors": [
+          {
+            "hex_value": "#CF9978",
+            "colour_name": "Medium Bronze "
+          }
+        ]
+      },
+      {
+        "id": 477,
+        "brand": "maybelline",
+        "name": "Maybelline Facestudio Master Contour Kit",
+        "price": "15.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/4f731de249cbd4cb819ea7f5f4cfb5c3_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-facestudio-master-contour_120303.html?cat=328",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Facestudio Master Contour Kit is the ultimate on the go all-in-one palette, with contouring brush included.  Define and highlight in a New York minute with this effortless 3-step face contouring kit.  This easy-to-use 3-step face contouring kit features a bronzer, blush and highlighter.",
+        "rating": null,
+        "category": null,
+        "product_type": "bronzer",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:35:40.504Z",
+        "updated_at": "2017-12-23T21:08:48.157Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/477.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/477/original/open-uri20171223-4-1m8bc4v?1514063328",
+        "product_colors": [
+          {
+            "hex_value": "#9B7163",
+            "colour_name": null
+          },
+          {
+            "hex_value": "#D78A89",
+            "colour_name": null
+          },
+          {
+            "hex_value": "#DBB7A9",
+            "colour_name": null
+          }
+        ]
+      },
+      {
+        "id": 468,
+        "brand": "maybelline",
+        "name": "Maybelline Face Studio Master Hi-Light Light Booster Blush",
+        "price": "14.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/4621032a92cb428ad640c105b944b39c_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-face-studio-master_88831.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Face Studio Master Hi-Light Light Boosting blush formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
+        "rating": null,
+        "category": "powder",
+        "product_type": "blush",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:35:27.706Z",
+        "updated_at": "2017-12-23T21:08:47.102Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/468.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/468/original/open-uri20171223-4-sz64re?1514063327",
+        "product_colors": []
+      },
+      {
+        "id": 452,
+        "brand": "maybelline",
+        "name": "Maybelline Face Studio Master Hi-Light Light Booster Blush ",
+        "price": "14.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/e8c59b78ebeaec5c4b6aeba49a9ff0f6_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-face-studio-master_88836.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Face Studio Master Hi-Light Light Boosting blush formula has an expert \nbalance of shade + shimmer illuminator for natural glow. Skin goes \nsoft-lit with zero glitz.\n\n\t\tFor Best Results: Brush over all shades in palette and gently sweep over \ncheekbones, brow bones, and temples, or anywhere light naturally touches\n the face.\n\n\t\t\n\t\n\n                    ",
+        "rating": 5,
+        "category": "powder",
+        "product_type": "blush",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:35:07.476Z",
+        "updated_at": "2017-12-23T20:51:17.460Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/452.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/452/original/open-uri20171223-4-1pmofky?1514062277",
+        "product_colors": []
+      },
+      {
+        "id": 439,
+        "brand": "maybelline",
+        "name": "Maybelline Fit Me Blush",
+        "price": "10.29",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/53d5f825461117c0d96946e1029510b0_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-fit-me-blush_31269.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Fit Me Blush has lightweight pigments blend easily and wear evenly. It provides a natural, fade-proof cheek color that leaves skin the way it was meant to be...fresh, breathing, and natural.\n\nFor Best Results: For soft, natural look, brush along cheekbone, sweeping upward.",
+        "rating": 4.8,
+        "category": "powder",
+        "product_type": "blush",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:34:46.302Z",
+        "updated_at": "2017-12-23T21:08:45.097Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/439.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/439/original/open-uri20171223-4-1max36x?1514063325",
+        "product_colors": [
+          {
+            "hex_value": "#FB8684",
+            "colour_name": "Deep Coral  "
+          },
+          {
+            "hex_value": "#F27988",
+            "colour_name": "Deep Rose "
+          },
+          {
+            "hex_value": "#C94A50",
+            "colour_name": "Deep Wine "
+          },
+          {
+            "hex_value": "#FFAAAF",
+            "colour_name": "Light Rose "
+          },
+          {
+            "hex_value": "#FC9D8F",
+            "colour_name": "Medium Coral  "
+          },
+          {
+            "hex_value": "#E89890",
+            "colour_name": "Medium Nude "
+          },
+          {
+            "hex_value": "#FF93A0",
+            "colour_name": "Medium Pink "
+          }
+        ]
+      },
+      {
+        "id": 414,
+        "brand": "maybelline",
+        "name": "Maybelline Dream Bouncy Blush",
+        "price": "11.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/51eacb9efebbaee39399e65ffe3d9416_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-dream-bouncy-blush_50689.html",
+        "website_link": "https://well.ca",
+        "description": "Now, blush has bounce! Freshest flush ever:• New bouncy texture is formulated with silicone elastomers• Lightweight like a powder, yet melts seamlessly into skin like a cream giving you a fresh flush• Dermatologist tested• Allergy tested• Non-comedogenic\n                    \n                    \n                    \n                        \n                        For best results: With your fingertips, blend a small amount of\n blush onto the apples of your cheeks, applying from your cheekbones to \nyour temples. To build colour intensity, apply more blush. \n                    ",
+        "rating": 4.5,
+        "category": "cream",
+        "product_type": "blush",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:34:17.251Z",
+        "updated_at": "2017-12-23T21:08:40.418Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/414.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/414/original/open-uri20171223-4-cjvuw0?1514063320",
+        "product_colors": [
+          {
+            "hex_value": "#ecc3d5",
+            "colour_name": "Fresh Pink "
+          },
+          {
+            "hex_value": "#ee9cb1",
+            "colour_name": "Hot Tamale "
+          },
+          {
+            "hex_value": "#ecbaba",
+            "colour_name": "Peach Satin "
+          },
+          {
+            "hex_value": "#c25159",
+            "colour_name": "Plum Wine "
+          }
+        ]
+      },
+      {
+        "id": 398,
+        "brand": "maybelline",
+        "name": "Maybelline Color Sensational Lipliner",
+        "price": "8.29",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/6607c1b7eb717dfbd3c228b61e4c5148_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-color-sensational_14541.html",
+        "website_link": "https://well.ca",
+        "description": "Keep your Maybelline lip color beautiful with matching lip liners that won't smudge, smear or bleed for smooth, defined lips. For best results: Line your lips starting in the center of your upper lip. Work from the \ncenter to outer edges of your lips using small strokes, following the \ncontour of your mouth. Follow the same technique for your bottom lip. To\n extend the wear of your favorite lip color or lip gloss, first fill in \nyour lips completely with lip liner. ",
+        "rating": 3.5,
+        "category": null,
+        "product_type": "lip_liner",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:33:39.513Z",
+        "updated_at": "2017-12-23T21:08:35.034Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/398.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/398/original/open-uri20171223-4-11xbwij?1514063314",
+        "product_colors": [
+          {
+            "hex_value": "#A15638",
+            "colour_name": "Nude "
+          },
+          {
+            "hex_value": "#7B4344",
+            "colour_name": "Plum "
+          },
+          {
+            "hex_value": "#854337",
+            "colour_name": "Raisin "
+          },
+          {
+            "hex_value": "#B3705A",
+            "colour_name": "Toast "
+          }
+        ]
+      },
+      {
+        "id": 382,
+        "brand": "maybelline",
+        "name": "Maybelline Dream Smooth Mousse Foundation",
+        "price": "14.79",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/fb79e7facf701176d4113527c284613f_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-dream-smooth-mousse_28944.html",
+        "website_link": "https://well.ca",
+        "description": "Why You'll Love ItUnique cream-whipped foundation provides 100% baby-smooth perfection.\n\nSkin looks and feels hydrated for 14 hours - never rough or dry\nLightweight formula provides perfectly moisturizing coverage\nBlends seamlessly and feels fresh all-day\nOil-free, Fragrance-free, Dermatologist Tested, Allergy Tested, Non-comedogenic – won’t clog pores.\nSafe for sensitive skin\n\n ",
+        "rating": 3.8,
+        "category": "cream",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:33:13.645Z",
+        "updated_at": "2017-12-23T21:08:34.195Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/382.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/382/original/open-uri20171223-4-8avct4?1514063314",
+        "product_colors": []
+      },
+      {
+        "id": 380,
+        "brand": "maybelline",
+        "name": "Maybelline Fit Me Shine-Free Foundation Stick",
+        "price": "10.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/d04e7c2ed65dabe1dca4eed9aa268e95_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-fit-me-shine-free_79864.html",
+        "website_link": "https://well.ca",
+        "description": "Get flawless, shine-free skin instantly and on-the-go for tailor-made \nmattifying coverage.  The anti-shine core has ultra-lightweight powders \nbuilt in to the stick foundation to instantly dissolve excess oil. Features: Maybelline's first gel stick foundation with an anti-shine core\nFresh gel foundation blends to a flawless matte finish\nLightweight powders in the anti-shine core instantly dissolve excess oil",
+        "rating": 4.7,
+        "category": "cream",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:33:11.836Z",
+        "updated_at": "2017-12-23T21:08:33.623Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/380.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/380/original/open-uri20171223-4-13lju4x?1514063313",
+        "product_colors": [
+          {
+            "hex_value": "#FFE4C6",
+            "colour_name": "Porcelain (110) "
+          },
+          {
+            "hex_value": "#FFE5C1",
+            "colour_name": "Ivory (115) "
+          },
+          {
+            "hex_value": "#FFD9B9",
+            "colour_name": "Classic Ivory (120) "
+          },
+          {
+            "hex_value": "#FACFA8",
+            "colour_name": "Natural Beige (220) "
+          },
+          {
+            "hex_value": "#D39B70",
+            "colour_name": "Toffee (330) "
+          },
+          {
+            "hex_value": "#CA8B67",
+            "colour_name": "Coconut (355) "
+          }
+        ]
+      },
+      {
+        "id": 379,
+        "brand": "maybelline",
+        "name": "Maybelline Dream Matte Mousse Foundation",
+        "price": "14.79",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/029889b345c76a70e8bb978b73ed1a87_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-dream-matte-mousse_3747.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Dream Matte Mouse Foundation is a revolutionary air-soft mousse that provides perfecting coverage for 100% velvet-matte complexion. It's non-comedogenic, fragrance-free, dermatologist-tested, allergy-tested and ideal for normal to oily skin.For best results: Apply smoothly and evenly to your face and blend with your fingertips.﻿\n\n ",
+        "rating": 4.4,
+        "category": "cream",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:33:10.614Z",
+        "updated_at": "2017-12-23T21:08:33.441Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/379.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/379/original/open-uri20171223-4-1koue12?1514063313",
+        "product_colors": [
+          {
+            "hex_value": "#f3d7b3",
+            "colour_name": "Classic Ivory "
+          },
+          {
+            "hex_value": "#dfc5a8",
+            "colour_name": "Light Beige "
+          },
+          {
+            "hex_value": "#edd3ac",
+            "colour_name": "Nude "
+          },
+          {
+            "hex_value": "#f5dfc3",
+            "colour_name": "Porcelain Ivory "
+          },
+          {
+            "hex_value": "#d9bcaf",
+            "colour_name": "Pure Beige "
+          },
+          {
+            "hex_value": "#d8bda8",
+            "colour_name": "Sandy Beige "
+          }
+        ]
+      },
+      {
+        "id": 366,
+        "brand": "maybelline",
+        "name": "Maybelline Mineral Power Natural Perfecting Powder Foundation",
+        "price": "14.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c77ad2da76259cfd67a9a9432f635bfb_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-mineral-power-natural_5900.html?cat=582",
+        "website_link": "https://well.ca",
+        "description": "Why You'll Love ItMineral Power Powder Foundation with micro-minerals provides a more natural, healthier, luminous look.\nDiscover the natural power of micro-minerals:\n100% natural mica creates a more natural luminosity Complete, yet refined coverage Provides buildable, even coverage Preservative-free, talc-free, oil-free, fragrance-free Medium to Full Coverage",
+        "rating": 3.9,
+        "category": "mineral",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:32:42.283Z",
+        "updated_at": "2017-12-23T21:08:29.561Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/366.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/366/original/open-uri20171223-4-q5cytj?1514063309",
+        "product_colors": [
+          {
+            "hex_value": "#FFD59E",
+            "colour_name": "Classic Ivory "
+          }
+        ]
+      },
+      {
+        "id": 354,
+        "brand": "maybelline",
+        "name": "Maybelline Dream Velvet Foundation",
+        "price": "18.49",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/24517c6c81c92eda31cd32b6327c1298_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-dream-velvet-foundation_112738.html?cat=581",
+        "website_link": "https://well.ca",
+        "description": "This Maybelline Dream Velvet Foundation is a refreshing gel-whipped foundation that leaves complexion perfected and smooth with a velvety, soft-matte finish. Skin stays hydrated for 12 hours. Features:Maybelline’s first hydrating matte foundation for 100% velvet-smooth perfectionUnique gel-whipped formulaIdeal for normal to combination skin, medium coverage For best results apply Maybelline Dream Velvet Foundation using Maybelline Dream Blender",
+        "rating": 2.5,
+        "category": "cream",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:32:21.385Z",
+        "updated_at": "2017-12-23T21:08:36.656Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/354.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/354/original/open-uri20171223-4-ouczfl?1514063316",
+        "product_colors": [
+          {
+            "hex_value": "#D39D7B",
+            "colour_name": "Caramel "
+          },
+          {
+            "hex_value": "#F5CAB9",
+            "colour_name": "Classic Ivory "
+          },
+          {
+            "hex_value": "#B37560",
+            "colour_name": "Coconut "
+          },
+          {
+            "hex_value": "#F3BEAC",
+            "colour_name": "Creamy Natural  "
+          },
+          {
+            "hex_value": "#E4A890",
+            "colour_name": "Honey Beige  "
+          },
+          {
+            "hex_value": "#F6D2BC",
+            "colour_name": "Ivory "
+          },
+          {
+            "hex_value": "#E2B598",
+            "colour_name": "Natural Beige "
+          },
+          {
+            "hex_value": "#F1BEAB",
+            "colour_name": "Nude  "
+          },
+          {
+            "hex_value": "#F8E0D4",
+            "colour_name": "Porcelain Ivory "
+          },
+          {
+            "hex_value": "#EEBAA4",
+            "colour_name": "Pure Beige "
+          },
+          {
+            "hex_value": "#EFC2A1",
+            "colour_name": "Sandy Beige  "
+          },
+          {
+            "hex_value": "#FAE2D6",
+            "colour_name": "Warm Porcelain "
+          }
+        ]
+      },
+      {
+        "id": 353,
+        "brand": "maybelline",
+        "name": "Maybelline Superstay Better Skin Foundation ",
+        "price": "14.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c7d967ef502ecd79ab7ab466c4952d82_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-superstay-better-skin_112548.html",
+        "website_link": "https://well.ca",
+        "description": "The Maybelline Superstay Better Skin Foundation reduces the appearance of spots, bumps, dullness and redness to give you brighter, smoother and more even skin. Features:Longwear that improves skin every minute you're in it: brighter, smoother and more even.With micro-flex technology and the antioxidant power of Actyl-C.Ideal for sensitive skin. Good for all skin types. Medium to full coverageHow to Apply: Apply evenly to your face and blend with your fingers. ",
+        "rating": 3,
+        "category": "liquid",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:32:19.867Z",
+        "updated_at": "2017-12-23T21:08:27.318Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/353.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/353/original/open-uri20171223-4-q9ubsf?1514063307",
+        "product_colors": [
+          {
+            "hex_value": "#9A6438",
+            "colour_name": "Coconut  "
+          },
+          {
+            "hex_value": "#DCBCA3",
+            "colour_name": "Ivory "
+          },
+          {
+            "hex_value": "#ECD3B2",
+            "colour_name": "Porcelain "
+          },
+          {
+            "hex_value": "#C99F6D",
+            "colour_name": "Rich Tan  "
+          },
+          {
+            "hex_value": "#CA9B5F",
+            "colour_name": "Sun Beige  "
+          }
+        ]
+      },
+      {
+        "id": 339,
+        "brand": "maybelline",
+        "name": "Maybelline Dream Wonder Liquid Touch Foundation",
+        "price": "14.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/ccb99ad6ac7f31a2a73454bdbda01d99_ra,w158,h184_pa,w158,h184.jpeg",
+        "product_link": "https://well.ca/products/maybelline-dream-wonder-liquid-touch_96732.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Dream Wonder Liquid Touch Foundation's breakthrough texture fuses with skin. A finish so impeccable, yet undetectable.Features:Exclusive dropperMedium to full coverage, ideal for normal skinFor Best Results: Shake well. Unscrew cap. Holding dropper vertically, allow foundation to drop onto fingertip. Apply to face as usual.",
+        "rating": null,
+        "category": "liquid",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:31:57.182Z",
+        "updated_at": "2017-12-23T21:08:22.715Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/339.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/339/original/data?1514063302",
+        "product_colors": [
+          {
+            "hex_value": "#DDA17B",
+            "colour_name": "Sun Beige (85) "
+          }
+        ]
+      },
+      {
+        "id": 321,
+        "brand": "maybelline",
+        "name": "Maybelline Dream Liquid Mousse",
+        "price": "14.79",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/1ca6a4a442b9aa6b5f3d94da77d8846c_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-dream-liquid-mousse_12303.html",
+        "website_link": "https://well.ca",
+        "description": "Airbrushed perfection made possible:Air-whipped liquid makeup for 100% poreless skin\n\nBreakthrough finish cushions and smooths for the most flawless, luminous coverage\nLightweight air-whipped formula blends to virtually eliminate pores and imperfections\nInnovative shade-match pump makes finding your perfect shade a dream \n",
+        "rating": 4.4,
+        "category": "liquid",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:31:31.590Z",
+        "updated_at": "2017-12-23T21:08:12.680Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/321.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/321/original/open-uri20171223-4-4z6wpb?1514063292",
+        "product_colors": [
+          {
+            "hex_value": "#FFD59E",
+            "colour_name": "Classic Ivory (Light 2) "
+          },
+          {
+            "hex_value": "#CB9E6C",
+            "colour_name": "Natural Beige (Medium 2.5) "
+          },
+          {
+            "hex_value": "#FFD9A6",
+            "colour_name": "Natural Ivory (Light 3) "
+          },
+          {
+            "hex_value": "#FBD8AA",
+            "colour_name": "Porcelain Ivory (Light 1) "
+          },
+          {
+            "hex_value": "#CE9E88",
+            "colour_name": "Pure Beige (Medium 2) "
+          }
+        ]
+      },
+      {
+        "id": 320,
+        "brand": "maybelline",
+        "name": "Maybelline FIT ME! Matte + Poreless Foundation",
+        "price": "10.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/257993e12625cc45a72ec03636ffa5c5_ra,w158,h184_pa,w158,h184.jpg",
+        "product_link": "https://well.ca/products/maybelline-fit-me-matte-poreless_100974.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline FIT ME! Matte + Poreless Foundation goes beyond  skin tone\n matching to fit the unique texture issues of normal to oily skin for \nthe ultimate natural skin fit.\n\nWhile some foundations can exaggerate pores and oily skin, only Maybelline's \npore-minimizing foundation contains their genius blurring micro-powders \nthat erase pores and absorb oil for a naturally matte and \nporeless-looking finish.Dermatologist and allergy tested.  Does not clog pores. Oil-free.\n\n  \n",
+        "rating": 4.4,
+        "category": "liquid",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:31:30.291Z",
+        "updated_at": "2017-12-23T21:08:12.553Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/320.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/320/original/data?1514063292",
+        "product_colors": [
+          {
+            "hex_value": "#fadbc7",
+            "colour_name": "Porcelain "
+          },
+          {
+            "hex_value": "#f1c7b1",
+            "colour_name": "Natural Ivory "
+          },
+          {
+            "hex_value": "#e8b89b",
+            "colour_name": "Ivory "
+          },
+          {
+            "hex_value": "#e6ba9f",
+            "colour_name": "Classic Ivory "
+          },
+          {
+            "hex_value": "#e5b495",
+            "colour_name": "Nude Beige "
+          },
+          {
+            "hex_value": "#e2ae8e",
+            "colour_name": "Buff Beige "
+          },
+          {
+            "hex_value": "#dead87",
+            "colour_name": "Natural Beige "
+          },
+          {
+            "hex_value": "#dfa585",
+            "colour_name": "Pure Beige "
+          },
+          {
+            "hex_value": "#d9a37f",
+            "colour_name": "Sun Beige "
+          },
+          {
+            "hex_value": "#bc855f",
+            "colour_name": "Toffee "
+          },
+          {
+            "hex_value": "#b37750",
+            "colour_name": "Coconut "
+          }
+        ]
+      },
+      {
+        "id": 317,
+        "brand": "maybelline",
+        "name": "Maybelline Fit Me Foundation with SPF",
+        "price": "10.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/eccb88d484b8c929fd349b0995a5dba2_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-fit-me-foundation-with_31187.html",
+        "website_link": "https://well.ca",
+        "description": "It’s face makeup that fits you!Features: No oils, no waxes, no nonsenseNatural, Light to medium coverage that leaves skin the way it was meant to be. Fresh, breathing, flawless.Exclusive transluscent base and lightweight pigments allow skin’s natural highs and lows to show through.New shades formulated specifically for women of color contain \nrevolutionary 5-D pigment technology to balance your skin’s authentic \ntones and highlights.SPF 18",
+        "rating": 3.8,
+        "category": "liquid",
+        "product_type": "foundation",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:31:25.764Z",
+        "updated_at": "2017-12-23T21:08:20.342Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/317.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/317/original/open-uri20171223-4-13jpajg?1514063300",
+        "product_colors": [
+          {
+            "hex_value": "#F7C2A5",
+            "colour_name": "Ivory (115) "
+          },
+          {
+            "hex_value": "#EFC1A0",
+            "colour_name": "Classic Ivory (120) "
+          },
+          {
+            "hex_value": "#E6B18F",
+            "colour_name": "Nude Beige (125) "
+          },
+          {
+            "hex_value": "#CE996F",
+            "colour_name": "Natural Beige (220) "
+          }
+        ]
+      },
+      {
+        "id": 309,
+        "brand": "maybelline",
+        "name": "Maybelline Expert Wear Eye Shadow Quad ",
+        "price": "8.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/c924006882e8e313d445a3a5394e4729_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-expert-wear-eye-shadow_79611.html",
+        "website_link": "https://well.ca",
+        "description": "Easy to use, lots to choose!Maybelline Expert Wear Eye Shadow \nQuads have 4 coordinating shades with step by step application guide \nmakes shadow easier than ever. The eyeshadows glide on effortlessly with\n superior smoothness and the velvet-tip applicator blends without \ntugging or pulling. Safe for sensitive eyes and contact lens wearers, \nophthalmologist-tested.For best results sweep the brush 4 times:Apply base color. Sweep shade on lid. Contour crease and blend. Line around eye. ",
+        "rating": 4,
+        "category": null,
+        "product_type": "eyeshadow",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:31:00.847Z",
+        "updated_at": "2017-12-23T21:08:19.919Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/309.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/309/original/open-uri20171223-4-1mmpy02?1514063299",
+        "product_colors": []
+      },
+      {
+        "id": 307,
+        "brand": "maybelline",
+        "name": "Maybelline Eyestudio Color Tattoo Concentrated Crayon",
+        "price": "10.99",
+        "price_sign": null,
+        "currency": null,
+        "image_link": "https://d3t32hsnjxo7q6.cloudfront.net/i/3f9f894b56e0616e44c5ee01dea45217_ra,w158,h184_pa,w158,h184.png",
+        "product_link": "https://well.ca/products/maybelline-eyestudio-color-tattoo_114535.html",
+        "website_link": "https://well.ca",
+        "description": "Maybelline Eyestudio Color Tattoo Concentrated Crayons give you high-intensity color that looks vibrant all-day long.Features:Smooth, soft creamy finishPlayful intense colorsAll day tattoo tenacity. Playful color intensity. In an easy glide on crayon.",
+        "rating": 3,
+        "category": null,
+        "product_type": "eyeshadow",
+        "tag_list": [],
+        "created_at": "2016-10-01T18:30:58.610Z",
+        "updated_at": "2017-12-23T21:08:18.441Z",
+        "product_api_url": "https://makeup-api.herokuapp.com/api/v1/products/307.json",
+        "api_featured_image": "//s3.amazonaws.com/donovanbailey/products/api_featured_images/000/000/307/original/open-uri20171223-4-5xfc8v?1514063298",
+        "product_colors": [
+          {
+            "hex_value": "#515552",
+            "colour_name": "Audacious Asphalt "
+          },
+          {
+            "hex_value": "#D8BFAC",
+            "colour_name": "Barely Beige "
+          },
+          {
+            "hex_value": "#B89A89",
+            "colour_name": "Bronze Truffle "
+          },
+          {
+            "hex_value": "#706A70",
+            "colour_name": "Charcoal Chrome "
+          },
+          {
+            "hex_value": "#5C3B27",
+            "colour_name": "Creamy Chocolate "
+          },
+          {
+            "hex_value": "#DDBA89",
+            "colour_name": "Gold Rush "
+          },
+          {
+            "hex_value": "#8E8C86",
+            "colour_name": "Grey Crystal "
+          },
+          {
+            "hex_value": "#7D6F7D",
+            "colour_name": "Lavish Lavender "
+          },
+          {
+            "hex_value": "#957B83",
+            "colour_name": "Lilac Lust "
+          },
+          {
+            "hex_value": "#E5AEB9",
+            "colour_name": "Pink Parfait "
+          }
+        ]
+      }
+       ]
+      }
