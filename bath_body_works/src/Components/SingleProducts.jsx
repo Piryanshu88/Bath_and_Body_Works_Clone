@@ -1,4 +1,4 @@
-import { Flex, Stack, Text,Box,Image, Button } from "@chakra-ui/react"
+import { Flex, Stack, Text,Box,Image, Button, Skeleton } from "@chakra-ui/react"
 import {useParams} from 'react-router-dom'
 import { StarIcon } from "@chakra-ui/icons"
 import {useEffect,useState} from 'react'
