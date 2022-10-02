@@ -1,4 +1,4 @@
-import { Flex, Stack, Text,Box,Image, Button, Skeleton } from "@chakra-ui/react"
+import { Flex, Stack, Text,Box,Image, Button, Skeleton,useToast } from "@chakra-ui/react"
 import {useParams} from 'react-router-dom'
 import { StarIcon } from "@chakra-ui/icons"
 import {useEffect,useState} from 'react'
@@ -7,6 +7,7 @@ const getdata=(url)=>{
 }
 function SingleProducts(){
     const [data,setData]=useState([])
+    const toast = useToast()
     const {topOffers_id}=useParams()
     useEffect(()=>{
         getdata(`  http://localhost:8080/products/${topOffers_id}`).then((res)=>setData(res))
@@ -31,7 +32,15 @@ function SingleProducts(){
           </Box>
         </Box>
         <Text as='b' fontSize='3xl' pY='3'  fontFamily='"ProximaNova",Helvetica Neue,Helvetica,Arial,sans-serif'>{`$${data.price}`}</Text>
-        <Button margin='10' background='blackAlpha.900' color='white' borderRadius='0' fontSize='20px'>Add to Cart</Button>
+        <Button margin='10' background='blackAlpha.900' color='white' borderRadius='0' fontSize='20px'  onClick={() =>
+        toast({
+          title: 'Successfully Added to cart',
+          description: "Click on cart to see item",
+          status: 'success',
+          duration: 9000,
+          isClosable: true,
+        })
+      }>Add to Cart</Button>
             </Flex>
         </Flex>
         <Box borderBottom='2px solid' textAlign='center'>
