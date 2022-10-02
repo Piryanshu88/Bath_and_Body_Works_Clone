@@ -1,3 +1,5 @@
+import React from "react";
+
 import {
   Box,
   Text,
@@ -15,16 +17,67 @@ import {
   FormControl,
   Checkbox,
   Divider,
+  useDisclosure,
+} from "@chakra-ui/react";
+import {
+  Drawer,
+  DrawerBody,
+  DrawerFooter,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
 } from "@chakra-ui/react";
 import { useState } from "react";
 function Account() {
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const { IsOpen, OnOpen, OnClose } = useDisclosure()
+  const btnRef = React.useRef();
   const [input, setInput] = useState("");
   const toast = useToast();
-  const statuses = ['success', 'error']
-  const handleInputChange = (e) => setInput(e.target.value);
+  const statuses = ["success", "error"];
+  const loginUser={
+    email:"",
+    password:""
+  }
+  const [loginuser,serloginuser]=React.useState(loginUser)
+  const handleInputChange = (e) =>{
+     setInput(e.target.value)
+     serloginuser({...loginuser,[e.target.name]:e.target.value})
+     console.log(loginuser)
+     
+    }
   const [show, setShow] = useState(false);
   const isError = input === "";
 
+  // Create account 
+const initSignup={
+  name:"",
+  email:"",
+  password:"",
+  confirmemail:""
+}
+const [user,setuser]=React.useState(initSignup)
+let IsPassword=(user.password.split("").includes("@"||'#'||"$"||"%"||"^"||"&"||"*")&&user.password.split("").length>=8)
+const handleChange=({target})=>{
+  const {name,value}=target
+  setuser({...user,[name]:value})
+  console.log(user)
+   IsPassword=(user.password.split("").includes("@"||'#'||"$"||"%"||"^"||"&"||"*")&&user.password.split("").length>=8)
+   console.log(IsPassword)
+}
+const SaveData=()=>{
+  if(user.name==""||user.email==""||user.password==""||user.confirmemail==""){
+    alert('Fill the details ')
+  }
+  if((user.password.split("").includes("@"||'#'||"$"||"%"||"^"||"&"||"*")&&user.password.split("").length>=8)){
+    localStorage.setItem('users',JSON.stringify(user))
+  }
+  
+}
+let LoginData=JSON.parse(localStorage.getItem('users'))
+
+const {name,email,password,confirmemail}=initSignup
   const handleClick = () => setShow(!show);
   return (
     <Stack w="65%" m="auto">
@@ -50,7 +103,7 @@ function Account() {
             <Input
               type="email"
               borderRadius="0"
-              value={input}
+              name='email'
               onChange={handleInputChange}
             />
             {!isError ? (
@@ -71,6 +124,8 @@ function Account() {
                 borderRadius="0"
                 type={show ? "text" : "password"}
                 placeholder="Enter password"
+                name="password"
+                onChange={handleInputChange}
               />
               <InputRightElement width="4.5rem">
                 <Button h="1.75rem" size="sm" onClick={handleClick}>
@@ -102,13 +157,16 @@ function Account() {
             mt="4"
             onClick={() =>
               toast({
-                title:input==""? "Login failed" :"Login Successfully.",
-                description:input==""?"Please fill correct details": "Have a great day.",
+                title: LoginData.email==loginuser.email&&LoginData.password==loginuser.password  ?  "Login Successfully.":"Login failed" ,
+                description:
+                LoginData.email==loginuser.email&&LoginData.password==loginuser.password
+                    ? "Have a great day.":"Please fill correct details"
+                    ,
                 status: "success",
                 duration: 1400,
                 isClosable: true,
-                position: 'top',
-                status:input===""?"error":"success"
+                position: "top",
+                status: LoginData.email==loginuser.email&&LoginData.password==loginuser.password ? "success": "error" ,
               })
             }
           >
@@ -134,9 +192,72 @@ function Account() {
             borderRadius="0"
             px="6"
             mt="4"
+            ref={btnRef}
+            onClick={onOpen}
           >
             Create an Account
           </Button>
+          <Drawer
+            isOpen={isOpen}
+            placement="right"
+            onClose={onClose}
+            finalFocusRef={btnRef}
+          >
+            <DrawerOverlay />
+            <DrawerContent>
+              <DrawerCloseButton />
+              <DrawerHeader fontSize="2xl">Create your account</DrawerHeader>
+
+              <DrawerBody>
+                <FormControl isRequired>
+                  <FormLabel>First name</FormLabel>
+                  <Input placeholder="First name" name='name' onChange={handleChange} />
+                  <FormLabel>Last name</FormLabel>
+                  <Input placeholder="Last name" />
+                  <FormLabel>Email</FormLabel>
+                  <Input placeholder="enter your email" name='email'onChange={handleChange}/>
+                  <FormControl isInvalid={isError}>
+                    <FormLabel>Confirm Email</FormLabel>
+                    <Input
+                      type="email"
+                      // onChange={handleInputChange}
+                      placeholder="enter your email" name='confirmemail' onChange={handleChange}
+                    />
+                    {user.email===user.confirmemail ? (
+                      <FormHelperText>
+                        ready to go
+                      </FormHelperText>
+                    ) : (
+                      <FormErrorMessage>email is not same as above</FormErrorMessage>
+                    )}
+                  </FormControl>
+
+                  <FormControl isInvalid={IsPassword}>
+                    <FormLabel>Password</FormLabel>
+                    <Input
+                      type="password"
+                      name='password'
+                      onChange={handleChange}
+                    />
+                    {!IsPassword ? (
+                      <FormErrorMessage>
+                        min 8 characters and a symbol is required.
+                      </FormErrorMessage>
+                    ) : (
+                      <FormHelperText>Click on Save to continue</FormHelperText>
+                    )}
+                  </FormControl>
+                </FormControl>
+              </DrawerBody>
+
+              <DrawerFooter>
+                <Button variant="outline" mr={3} onClick={onClose}>
+                  Cancel
+                </Button>
+                <Button colorScheme="blue" onClick={SaveData}>Save</Button>
+              </DrawerFooter>
+            </DrawerContent>
+          </Drawer>
         </Flex>
       </Flex>
     </Stack>

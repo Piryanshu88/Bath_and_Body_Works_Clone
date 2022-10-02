@@ -2,6 +2,7 @@ import {Flex, Image,Box,ButtonGroup,Button,Spacer, HStack, Icon,Input, InputGrou
 import { Link } from 'react-router-dom'
 import { SearchIcon} from '@chakra-ui/icons'
 import React from 'react';
+import axios from 'axios'
 
 let id;
 function debounce(fn){
@@ -21,25 +22,30 @@ const options = {
 	}
 };
 
-const get=(query)=>{
-    return fetch(`https://sephora.p.rapidapi.com/products/search?q=${query}&pageSize=60&currentPage=1`, options).then((res)=>res.json()).then((re)=>re)
+const get=(query,page=1)=>{
+    return axios.get(`https://sephora.p.rapidapi.com/products/search?q=${query}&pageSize=10&currentPage=${page}`, options)
 }
 
 function Navbar(){
+    const [data,setData]=React.useState([])
     const [username, setUsername] = React.useState("");
-    console.log(username)
+    // export let U=username
     const handleClick=()=>{
-        console.log(get(username))
+        //localStorage.setItem('search',"")
+        get(username).then((res) => setData(res.data.products));
+        console.log(data)
+        localStorage.setItem('search',JSON.stringify(data))
     }
+    console.log(data)
     return  (
         <Box>
-        <Flex minWidth='max-content' alignItems='center' gap='2' border='1px solid'justifyContent='space-evenly' p="1" >
+        <Flex minWidth='max-content' alignItems='center' gap='2' borderBottom="1px solid"justifyContent='space-evenly' p="1" >
             <HStack w="310px" ></HStack>
                 <Image src='https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw22126b8b/images/svg-icons/Logos-main.svg?yocs=o_s_'  alt='company_logo' width='258px' />
             <HStack marginRight='-50px' gap='3' >
                 <InputGroup>
-                    <Input placeholder='search..' onChange={(e)=>setUsername(e.target.value)} border='1px solid black' type='search' borderRightRadius='0'/>
-                    <InputRightElement onClick={()=>debounce(handleClick)} children={<SearchIcon/>}></InputRightElement>
+                    <Input placeholder='search..' onChange={(e)=>setUsername(e.target.value)} border='1px solid black' type='text' borderRadius='0'/>
+                    <Link to='/searchproducts'><InputRightElement onClick={()=>debounce(handleClick)} children={<SearchIcon />}></InputRightElement></Link>
                 </InputGroup>
                 
                 <Link to='/Login'><Image src='https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.219/on/demandware.static/Sites-BathAndBodyWorks-Site/-/default/dw88f6c71d/images/svg-icons/UI-MyAccount.svg?yocs=o_s_' width='36px'/></Link>
