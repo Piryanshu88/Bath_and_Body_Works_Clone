@@ -1,4 +1,4 @@
-import { Flex, Stack, Text,Box,Image, Button, Skeleton, SimpleGrid, GridItem, Grid, Link } from "@chakra-ui/react"
+import { Flex, Stack, Text,Box,Image, Button, Skeleton, SimpleGrid, GridItem, Grid, Link,useToast } from "@chakra-ui/react"
 import {useState,useEffect} from 'react'
 import { StarIcon } from "@chakra-ui/icons"
 
@@ -8,13 +8,24 @@ let product=JSON.parse(localStorage.getItem('singleproduct'))||[]
 //     window.location.href=""
 // }window.location.href='#'
  
- const AddtoCart=()=>{
-    let arr=JSON.parse(localStorage.getItem('add-to-cart'))||[]
-    arr.push(product)
-    localStorage.setItem('add-to-cart',JSON.stringify(arr))
-    
- }
+ 
 function SingleSearchPro(){
+    const toast = useToast()
+    const AddtoCart=()=>{
+        let arr=JSON.parse(localStorage.getItem('add-to-cart'))||[]
+        arr.push(product)
+    
+            toast({
+              title: 'Account created.',
+              description: "We've created your account for you.",
+              status: 'success',
+              duration: 9000,
+              isClosable: true,
+            })
+          
+        localStorage.setItem('add-to-cart',JSON.stringify(arr))
+        
+     }
     
     const [data,setpro]=useState(product)
     useEffect(()=>{
