@@ -1,5 +1,7 @@
 # Bath_and_Body_Works_Clone
 
+Bath & Body Works is a global leader in personal care and home fragrance, including the #1 selling collections for fine fragrance mist, body lotion and body cream, 3-wick candles, home fragrance diffusers and liquid hand soap.
+
 # Tech-Stacks
 
 - **Front-end:** HTML, CSS, JavaScript ,React and Chakra UI
